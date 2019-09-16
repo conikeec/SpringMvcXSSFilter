@@ -11,7 +11,7 @@
     ${info}
 </body>
 	<form method="post" action="http://localhost:8080/owasp/jinjection">
-		<input type="text" name="info" id="info" value="${info}" />
+		<input type="text" name="info" id="info" value="${info}" htmlEscape="true"/>
 		<button type="submit">Send</button>
 	</form>
 </html>

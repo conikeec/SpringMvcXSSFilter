@@ -28,7 +28,7 @@ public class HelloWorldController {
     	model.addAttribute("greeting", "Send injected script");
     	
     	model.addAttribute("info", info);
-    	model.addAttribute("info", HtmlUtils.htmlEscape(info));
+    	//model.addAttribute("info", HtmlUtils.htmlEscape(info));
     	return "welcome";
     }
     
